@@ -20,7 +20,7 @@ export function Signup(){
             console.log("Please fill in all required fields.");
             return;
         }
-        const res =  await axios.post("https://payment-app-tv7f-api.vercel.app/ap/v1/user/signup",
+        const res =  await axios.post("https://payment-app-tv7f-api.vercel.app/api/v1/user/signup",
         userInfo)
         if(res.status===200){
             navigate("/Signin")
