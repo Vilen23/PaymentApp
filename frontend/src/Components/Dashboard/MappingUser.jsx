@@ -15,7 +15,7 @@ export function MappingUser() {
   const [modal,setModal] = useRecoilState(modalAtom)
   const setReciever = useSetRecoilState(recAtom)
   const fetchusers = async () => {
-    const res = await axios.get("http://localhost:3000/api/v1/user/bulk", {
+    const res = await axios.get("https://payment-app-tv7f-api.vercel.app/api/v1/user/bulk", {
       params: {
         filter: filterval,
       },

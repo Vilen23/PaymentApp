@@ -32,7 +32,7 @@ export function Modal() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/v1/account/transfer",
+        "https://payment-app-tv7f-api.vercel.app/api/v1/account/transfer",
         {
           amount: parseInt(amount),
           to: reciever._id,

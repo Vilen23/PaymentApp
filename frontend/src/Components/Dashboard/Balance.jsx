@@ -11,7 +11,7 @@ export function Balance() {
 
   const fetchdata = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/v1/account/balance", {
+      const res = await axios.get("https://payment-app-tv7f-api.vercel.app/api/v1/account/balance", {
         headers: {
           authorization: `Bearer ${token}`,
         },
