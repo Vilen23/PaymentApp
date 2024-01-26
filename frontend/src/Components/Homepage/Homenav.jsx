@@ -13,7 +13,7 @@ export function Homenav() {
               navigate("/");
             }}
           >
-            Lpay
+            Gpay
           </p>
           <p className="sm:mr-20 mr-4 font-sans sm:text-lg text-[16pxPsi]">Made your life easy</p>
         </div>
